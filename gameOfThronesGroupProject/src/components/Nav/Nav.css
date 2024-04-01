@@ -1,0 +1,22 @@
+
+
+.idiomas{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  
+}
+/* .flags{
+    height: 20px;
+} */
+
+.spain_flag{
+    height: 27px;
+    margin-right: 16px;
+}
+
+.uk_flag{
+    height: 20px;
+}

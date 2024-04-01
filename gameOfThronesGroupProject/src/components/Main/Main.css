@@ -1,0 +1,50 @@
+@font-face {
+    font-family: gameOfThrones;
+    src: url(../../fonts/GameOfThrones.ttf);
+  }
+  
+  * {
+    font-family: gameOfThrones;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  .main_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("../../../public/trono 1.jpg");
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh; /* Ensure that the container takes at least the full height of the viewport */
+  }
+  
+  .title {
+    font-size: 90px;
+    white-space: pre-wrap;
+  }
+  
+  .home_nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 30px;
+    width: 100%;
+    .home_flags{
+      margin-right: 50px;
+    }
+  }
